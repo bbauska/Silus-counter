@@ -7,4 +7,4 @@ function count() {
   
   document.addEventListener('DOMContentLoaded', function(){
     document.getElementById('clicker').onclick = count;
-	}
+	})
