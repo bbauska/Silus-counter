@@ -36,8 +36,9 @@ h1 {
   25% {transform: scale(1.4);}
   50% {transform: scale(1);}
   75% {transform: scale(1.4);}
-  100% {transform: scale(1)};}
+  100% {transform: scale(1);}
 }
+
 #clicker:hover {
   animation-name: grow;
   animation-duration: 60s;
