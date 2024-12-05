@@ -1,3 +1,4 @@
+
 /* styles.css in Silus-counter - js-basics.bauska.org */
 body {
   display: flex;
@@ -10,7 +11,7 @@ body {
   align-items: center;
   flex-direction: column;
   width: 50%;
-  background-color: rgba(65, 105, 224, 0.7);
+  background-color: rgba(255, 0, 0, .7);  /* 65, 105, 224 .7 */
   border-radius: 10px;
   box-shadow: 0 0 8px 0 rgb(3, 75, 85);
   margin-top: 100px;
@@ -19,7 +20,7 @@ body {
   width: 200px;
   height: 50px;
   border-radius: 10px;
-  box-shadow: 0 0 8px 0 rgb(3, 75, 85);
+  box-shadow: 0 0 8px 0 rgb(255, 255, 185);  /* 3, 75 185 */
   background-color: rgba(10, 4, 90, 0.6);
   color: rgb(255, 255, 255);
   margin-bottom: 100px;
@@ -27,7 +28,7 @@ body {
   }
 h1 {
   color: rgb(255, 255, 255);
-  font-size: 144px;
+  font-size: 184px;
   letter-spacing: 0.1em;
   }
 @keyframes grow {
