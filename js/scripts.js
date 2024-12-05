@@ -1,3 +1,4 @@
+/* ./js/scripts.js in Silus-counter.bauska.org */
 let counter = 0;
 
 function count() {
