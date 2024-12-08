@@ -1,5 +1,6 @@
 <!-- ./js/scripts.js in Silus-counter.bauska.org -->
-let counter = 0;
+<!-- Dec 7, 2024 = 10,100 & counting -->
+let counter = 10100;
 
 function count() {
   counter++;
