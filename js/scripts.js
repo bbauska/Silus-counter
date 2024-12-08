@@ -7,5 +7,5 @@ function count() {
   }
   /* following was = count; */
   document.addEventListener('DOMContentLoaded', function(){
-    document.getElementById('clicker').onclick = counter;
+    document.getElementById('clicker').onclick = count;
 	})
