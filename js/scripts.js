@@ -1,5 +1,7 @@
 <!-- ./js/scripts.js in Silus-counter.bauska.org -->
-<!-- Dec 7, 2024 = 10,100 & counting -->
+// Load the Numeral.js library from a CDN
+<script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js">
+</script>
 let counter = 10100;
 
 function count() {
@@ -9,4 +11,6 @@ function count() {
   
   document.addEventListener('DOMContentLoaded', function(){
     document.getElementById('clicker').onclick = count;
-	})
+    // Format the number using the Numeral.js library
+    var formattedNum = numeral(clicker).format("0,0.00");
+  })
