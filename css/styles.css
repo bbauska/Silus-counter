@@ -27,21 +27,19 @@ body {
   }
 h1 {
   color: rgb(255, 255, 255);
-  font-size: 64px;
+  font-size: 64px;  /* 64px; */
   letter-spacing: 0.1em;
   }
 h2 {
+  font-size: 32px;
   justify-content: center;
   color: rgb(255, 255, 255);
-  font-size: 26px;
-  letter-spacing: 0.1em;
   }
 h3 {
+  font-size: 26px;
   justify-content; center;
-  background-color: black;
+  background-color: darkgreen;
   color: rgb(200,200,200);
-  font-size: 20px;
-  letter-spacing: 0.1em;
 }
 h4 {
   color: darkgreen;
