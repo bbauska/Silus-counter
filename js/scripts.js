@@ -11,6 +11,4 @@ function count() {
   
   document.addEventListener('DOMContentLoaded', function(){
     document.getElementById('clicker').onclick = counter;
-    // Format the number using the Numeral.js library
-    var formattedNum = numeral(counter).format("0,0.00");
   })
