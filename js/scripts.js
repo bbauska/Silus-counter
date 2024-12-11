@@ -1,4 +1,4 @@
-<!-- ./js/scripts.js in Silus-counter.bauska.org -->
+<!-- ./js/scripts.js in Silus-clicker.bauska.org -->
 let counter = 10010;  /* from Dec 7th-8th */
 
 function count() {
