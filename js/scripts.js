@@ -9,3 +9,12 @@ function count() {
 document.addEventListener('DOMContentLoaded', function(){
   document.getElementById('clicker').onclick = count;
 })
+
+function separateNumber() { 
+  givenNumber = counter;
+     
+  output = givenNumber.toLocaleString('en-US'); 
+     
+  document.querySelector('.output').textContent = output; 
+     
+}
