@@ -5,7 +5,7 @@ function count() {
   counter++;
   givenNumber = counter;
   output = givenNumber.toLocaleString('en-US'); 
-  document.getElementById('number').innerHTML = counter;
+  document.getElementById('number').innerHTML = output;
 }
 
 document.addEventListener('DOMContentLoaded', function(){
