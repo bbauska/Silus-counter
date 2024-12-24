@@ -10,7 +10,7 @@ function count() {
 
 document.addEventListener('DOMContentLoaded', function(){
   document.getElementById('clicker').onclick = count;
-  let confettiCounter = count / 1000
-  if confettiCounter = 1  {
+  let confettiCounter = count / 100
+  if confettiCounter.isInteger  {
   showConfetti();
 })
