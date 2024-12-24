@@ -11,5 +11,5 @@ function count() {
 document.addEventListener('DOMContentLoaded', function(){
   document.getElementById('clicker').onclick = count;
   if count / 1000 = 1  {
-  show_confetti();
+  showConfetti();
 })
