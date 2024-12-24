@@ -1,7 +1,7 @@
 import JSConfetti from 'js-confetti'
 const jsConfetti = new JSConfetti()
 
-jsConfetti.addConfetti({
+showConfetti({
   emojis: ['🥩'],
   emojiSize: 100,
   confettiNumber: 30,
