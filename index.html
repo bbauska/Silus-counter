@@ -41,5 +41,19 @@
   <script src="./js/scripts.js"></script>
   <script src="./js/confetti.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+
+<div id="swapper-first" style="display:block; border:2px dashed red; padding:25px;">
+<p style="margin:0; color:red;">
+This div displayed when the web page first loaded.
+</p>
+</div>
+<div id="swapper-other" style="display:none; border:2px dotted blue; padding:25px;">
+<p style="margin:0; color:blue;">
+This div displayed when the link was clicked.
+</p>
+</div>
+<p style="text-align:center; font-weight:bold; font-style:italic;">
+<a href="javascript:SwapDivsWithClick('swapper-first','swapper-other')">(Swap Divs)</a>
+</p>
 </body>
 </html>
