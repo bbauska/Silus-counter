@@ -57,6 +57,7 @@ h4 {
   animation-name: grow;
   animation-duration: 60s;
   }
+
 <!-- confetti-container & more -->
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 #confetti-container {
@@ -69,7 +70,6 @@ h4 {
   justify-content: center;
   height: 100vh;
 }
-
 .card {
   background-color: #fff;
   max-width: 700px;
@@ -77,14 +77,12 @@ h4 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   padding: 2rem;
 }
-
 .card p {
   font-size: 1.2rem;
   text-align: center;
   margin: 0;
   padding: 10px;
 }
-
 .confetti {
   position: absolute;
   top: 0;
@@ -103,4 +101,3 @@ h4 {
 canvas {
   border: 1px solid black;
 }
-
