@@ -269,3 +269,15 @@ var JSConfetti = (function () {
     })();
 })();
 
+const jsConfetti = new JSConfetti()
+
+showConfetti({
+  emojis: ['🥩'],
+  emojiSize: 100,
+  confettiNumber: 30,
+})
+
+// ... 
+jsConfetti.clearCanvas()
+
+
