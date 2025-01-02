@@ -98,6 +98,14 @@ h4 {
     transform: translateY(100vh) rotate(180deg);
   }
 }
-canvas {
-  border: 1px solid black;
+<!-- shadow/confetti -->
+button {
+  margin-bottom: 10px;
+  display: block;
 }
+canvas {
+  width: 500px;
+  height: 300px;
+  border: 1px solid blue;
+}
+
