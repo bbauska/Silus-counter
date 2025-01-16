@@ -1,4 +1,4 @@
-/* styles.css in wip-silus-count of wip.bauska.org */
+/* styles.css in Silus-counter of silus-clicker.bauska.org */
 body {
   display: flex;
   justify-content: center;
@@ -14,17 +14,6 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 8px 0 rgb(3, 75, 85);
   margin-top: 100px;  /* 100px */
-}
-
-#confetti-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
 }
   
 #clicker {
