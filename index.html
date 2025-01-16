@@ -48,7 +48,7 @@
 var canvas = document.getElementById('back');
 // you should  only initialize a canvas once, so save this function
 // we'll save it to the canvas itself for the purpose of this demo
-canvas.confetti = back.confetti || confetti.create(back, { resize: true });
+canvas.confetti = confetti.create(back, { resize: true });
 
 back.confetti({
   spread: 70,
