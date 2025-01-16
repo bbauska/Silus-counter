@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ index.html of Silus-clicker.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ index.html of Silus-clicker.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <link rel="shortcut icon" type="image/jpg" href="/images/favicon.ico" />
+  <meta htp-equiv="X-UA-Compatible" content="IE-edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
   <meta name="author" content="Brian Bauska (bbauska)" />
-  <meta name="title" content="Silus' Click Counter" />
+  <meta name="title" content="WIP Silus' Click Counter" />
   <meta name="description" content="Click counter for Silus' websites." />
-  <title>Silus' Click Counter</title>
+
+  <title>WIP Silus' Click Counter</title>
   <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+
   <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
@@ -31,13 +34,26 @@
 </head>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <body>
-  <div class="back">
-    <h2>SilusGamingWorld</h2>
-	<h3>&nbsp; is saying "Steak"<br> 1.1 Million Times!</h3>
-    <h1 id="number">135,000</h1>  <!-- start with previous running balance 135,000 = 10,010 + 24,215 + 55,855 (2 nights) + 44,920 (2 nights) -->
-    <button id="clicker">Click Here!</button>
+  <div id="confetti-container">
+    <div class="back">
+      <h2>WIP SilusGamingWorld</h2>
+      <h3>&nbsp; is saying "Steak"<br> 1.1 Million Times!</h3>
+      <h1 id="number">135,000</h1>  <!-- start with previous running balance 135,000 = 10,010 + 24,215 + 55,855 (2 nights) + 44920 (2 nights) -->
+      <button id="clicker">Click Here!</button>
+    </div>
   </div>
-  <script src="./js/scripts.js"></script>
+    <script src="./js/Confetti.js"></script>
+    <script src="./js/scripts.js"></script>
+<script>
+var canvas = document.getElementById('back');
+// you should  only initialize a canvas once, so save this function
+// we'll save it to the canvas itself for the purpose of this demo
+canvas.confetti = back.confetti || confetti.create(back, { resize: true });
 
+back.confetti({
+  spread: 70,
+  origin: { y: 1.2 }
+});
+</script>
 </body>
 </html>
