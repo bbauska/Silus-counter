@@ -83,19 +83,7 @@ h4 {
   box-shadow: 0 0 8px 0 rgb(3, 75, 85);
   margin-top: 100px;  /* 100px */
 }
-.card {
-  background-color: #fff;
-  max-width: 700px;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  padding: 2rem;
-}
-.card p {
-  font-size: 1.2rem;
-  text-align: center;
-  margin: 0;
-  padding: 10px;
-}
+
 .confetti {
   position: absolute;
   top: 0;
@@ -103,21 +91,3 @@ h4 {
   animation: confetti-fall linear 5s infinite;
 }
 
-@keyframes confetti-fall {
-  0% {
-    transform: translateY(-100%) rotate(0);
-  }
-  100% {
-    transform: translateY(100vh) rotate(360deg);  /* 180deg */
-  }
-}
-<!-- shadow/confetti -->
-button {
-  margin-bottom: 10px;
-  display: block;
-}
-canvas {
-  width: 500px;
-  height: 300px;
-  border: 1px solid blue;
-}
