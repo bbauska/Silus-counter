@@ -15,17 +15,6 @@ body {
   box-shadow: 0 0 8px 0 rgb(3, 75, 85);
   margin-top: 100px;  /* 100px */
 }
-.confetti {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;  /* 50% */
-  background-color: rgba(255, 0, 0, .7);  /* 65, 105, 224 .7 */
-  border-radius: 10px;
-  box-shadow: 0 0 8px 0 rgb(3, 75, 85);
-  margin-top: 100px;  /* 100px */
-}
   
 #clicker {
   width: 200px;  /* 200px */
