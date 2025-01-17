@@ -15,7 +15,7 @@ body {
   box-shadow: 0 0 8px 0 rgb(3, 75, 85);
   margin-top: 100px;  /* 100px */
 }
-.back.confetti {
+.confetti {
   display: flex;
   justify-content: center;
   align-items: center;
