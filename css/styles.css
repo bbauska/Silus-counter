@@ -9,11 +9,11 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 50%;
+  width: 25%;  /* 50% */
   background-color: rgba(255, 0, 0, .7);  /* 65, 105, 224 .7 */
   border-radius: 10px;
   box-shadow: 0 0 8px 0 rgb(3, 75, 85);
-  margin-top: 100px;
+  margin-top: 200px;  /* 100px */
 }
 #clicker {
   width: 200px;
@@ -24,7 +24,12 @@ body {
   color: rgb(255, 255, 255);
   margin-bottom: 100px;
   transition: 2s;
-  }
+}
+#clicker:hover {
+  animation-name: grow;
+  animation-duration: 60s;
+}
+
 h1 {
   color: rgb(255, 255, 255);
   font-size: 184px;
