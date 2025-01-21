@@ -3,10 +3,14 @@
    Dec 13-14, 2024 = 24,215 (10 hours approx)
    Dec 20-22, 2024 = 55,855 (16 hours approx)
    Jan 10-12, 2025 = 44,920 (21 hours approx) 
-   Jan 17, 2025 = 36,000 (10 hours approx) */
-let counter = 10010 + 24215 + 55855 + 44920 + 36000;
-/* 10010 from Dec 7th-8th (6 hours - 1 day), 24215 from Dec 13-14 (10 hours - 1 day), 55855 from Dec 20, 21, 22 (16 hours - 2 days), 
-   44920 from Jan 10-12, 2025 (6pm-4:50am), Jan 17, 2025 (5pm-5am) all times are approximate. */
+   Jan 17, 2025 = 36,000 (10 hours approx) 
+   Jan 18, 19, 20, 2025 = 45350 (30 hours approx) */
+let counter = 10010 + 24215 + 55855 + 44920 + 36000 + 45350;
+/* 10010 from Dec 7th-8th (6 hours - 1 day), 
+   24215 from Dec 13-14 (10 hours - 1 day), 
+   55855 from Dec 20, 21, 22 (16 hours - 2 days), 
+   44920 from Jan 10-12, 2025 (6pm-4:50am), 
+   45350 from Jan 17-20, 2025 (30 hrs approx) all times are approximate. */
 
 function count() {
   counter++;
@@ -18,3 +22,19 @@ function count() {
 document.addEventListener('DOMContentLoaded', function(){
   document.getElementById('clicker').onclick = count;
 })
+const confettiContainer = document.querySelector('#confetti-container');
+const showConfetti = () => {
+  const confetti = document.createElement('div');
+  confetti.textContent = '🥩';
+  confetti.classList.add('confetti');
+  confetti.style.left = Math.random() * innerWidth + 'px';
+  confettiContainer.appendChild(confetti);
+
+  setTimeout(() => {
+    confetti.remove();
+  }, 5000);  /* 5000 - how far down the screen before disappears */
+};
+
+setInterval(() => {
+  showConfetti();
+}, 100);  /* 400 */
