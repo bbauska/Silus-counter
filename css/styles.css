@@ -54,7 +54,3 @@ h3 {
   100% {transform: scale(1);}
 }
 
-#clicker:hover {
-  animation-name: grow;
-  animation-duration: 60s;
-  }
