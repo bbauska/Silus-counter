@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
+  width: 125%;  /* 100%; */
   background-color: rgba(255, 0, 0, .7);  /* 65, 105, 224 .7 */
   border-radius: 10px;
   box-shadow: 0 0 8px 0 rgb(3, 75, 85);
@@ -30,12 +30,11 @@ body {
   animation-duration: 60s;
   }
 #number {
-  color: black;
+  font-size: 56px;  /* color: black; */
 }
-  
 h1 {
   color: rgb(255, 255, 255);
-  font-size: 184px;
+  font-size: 384px;
   letter-spacing: 0.1em;
   }
 h2 {
