@@ -22,6 +22,7 @@ function count() {
 document.addEventListener('DOMContentLoaded', function(){
   document.getElementById('clicker').onclick = count;
 })
+
 const confettiContainer = document.querySelector('#confetti-container');
 const showConfetti = () => {
   const confetti = document.createElement('div');
