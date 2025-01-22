@@ -29,6 +29,9 @@ body {
   animation-name: grow;
   animation-duration: 60s;
   }
+#number {
+  color: black;
+}
   
 h1 {
   color: rgb(255, 255, 255);
