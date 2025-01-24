@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 125%;
+  width: 225%;
   background-color: rgba(255, 0, 0, .7);  /* 65, 105, 224 .7 */
   border-radius: 10px;
   box-shadow: 0 0 8px 0 rgb(3, 75, 85);
