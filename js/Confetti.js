@@ -7,10 +7,10 @@ const showConfetti = () => {
   confettiContainer.appendChild(confetti);
 
   setTimeout(() => {
-    confetti.remove();
+    confetti.remove();  /* confetti.remove */
   }, 3000);  /* wait 5 seconds, 5000 */
 };
 
 setInterval(() => {
   showConfetti();
-}, 400);  /* 400 */
+}, 1000);  /* 400 */
