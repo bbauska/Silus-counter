@@ -3,7 +3,7 @@ const showConfetti = () => {
   const confetti = document.createElement('div');
   confetti.textContent = '🥩';
   confetti.classList.add('confetti');
-  innerWidth = innerWidth - 100;
+  innerWidth = innerWidth * 0.5;
   confetti.style.left = Math.random() * innerWidth + 'px';
   confettiContainer.appendChild(confetti);
 
