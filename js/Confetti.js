@@ -8,9 +8,9 @@ const showConfetti = () => {
 
   setTimeout(() => {
     confetti.remove();
-  }, 5000);  /* 5000 */
+  }, 3000);  /* wait 5 seconds, 5000 */
 };
 
 setInterval(() => {
   showConfetti();
-}, 100);  /* 400 */
+}, 400);  /* 400 */
