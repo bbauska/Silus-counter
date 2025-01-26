@@ -98,7 +98,7 @@ function resetFlake(flake) {
 function updatePositions() {
 
     flakes.forEach((flake) => {
-        // Normalize amount of time a snowfalke has been alive to the range [0, 1.0]
+        // Normalize amount of time a snowflake has been alive to the range [0, 1.0]
         let origLife = parseFloat(flake.dataset.origLife)
         let curLife = parseFloat(flake.dataset.life);
         let dt = (origLife - curLife) / origLife;
