@@ -5,14 +5,16 @@
    Jan 10-12, 2025 = 44,920 (21 hours approx) 
    Jan 17, 2025 = 36,000 (10 hours approx) 
    Jan 18, 19, 20, 2025 = 45350 (30 hours approx) 
-   Jan 24, 2025 = 12150 */
-let counter = 10010 + 24215 + 55855 + 44920 + 36000 + 45350 + 12150;
+   Jan 24, 2025 = 12150 (10 hours)
+   Jan 25, 2025 = 32057 (10 hours) */
+let counter = 10010 + 24215 + 55855 + 44920 + 36000 + 45350 + 12150 + 32057;
 /* 10010 from Dec 7th-8th (6 hours - 1 day), 
    24215 from Dec 13-14 (10 hours - 1 day), 
    55855 from Dec 20, 21, 22 (16 hours - 2 days), 
    44920 from Jan 10-12, 2025 (6pm-4:50am), 
    45350 from Jan 17-20, 2025 (30 hrs approx) 
-   12150 from Jan 24, 2025 (10 hrs) all times are approximate. */
+   12150 from Jan 24, 2025 (10 hrs) 
+   32057 from Jan 25, 2025 (10 hrs) all times are approximate. */
 
 function count() {
   counter++;
