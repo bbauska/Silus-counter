@@ -1,7 +1,7 @@
 /* styles.css in silus-counter of silus-counter.bauska.org */
 body {
   display: flex;
-  justify-content: left;  /* center; */
+  justify-content: center;  /* center; */
   align-items: center;
 }
 .back {
