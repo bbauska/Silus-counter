@@ -31,9 +31,9 @@ const fun = ['♂️', '♀️', '💋', '❤️', '💖', '😻', '🥩'];
 const cssString = `.snowfall-container {
     display: block;
     height: 100vh;
-    left: -33vh;  /* 0 */
+    left: 0;
     margin: 0;
-    padding: 0;
+    padding: 100px;  /* 0 */
     -webkit-perspective-origin: top center;
             perspective-origin: top center;
     -webkit-perspective: 150px;
@@ -43,7 +43,7 @@ const cssString = `.snowfall-container {
     top: 0;
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
-    width: 66%;  /* 100%; */
+    width: 100%;
     z-index: 99999; }
 
   .snowflake {
