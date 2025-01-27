@@ -72,14 +72,7 @@ h4 {
   justify-content: center;
   height: 100vh;  /* 100vh; */
 }
-.confetti-container {
-  position: absolute;  /* absolute */
-  top: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;  /* 100vh; */
-}
+
 .card {
   background-color: #fff;
   max-width: 700px;
