@@ -9,8 +9,9 @@
    Jan 25, 2025 = 32,057 (10 hours) 
    Jan 31, 2025 = 8,993 (4 hours) 
    Feb 1, 2025 = 42,700 (10 hours) 
-   Feb 2, 2025 = 7,900 (2 hours) */
-let counter = 10010 + 24215 + 55855 + 44920 + 36000 + 45350 + 12150 + 32057 + 8993 + 42700 + 7900;
+   Feb 2, 2025 = 7,900 (2 hours) 
+   Feb 7, 2025 = 29,950 (10+ hours) */
+let counter = 10010 + 24215 + 55855 + 44920 + 36000 + 45350 + 12150 + 32057 + 8993 + 42700 + 7900 +29950;
 /* 10,010 from Dec 7th-8th (6 hours - 1 day), 
    24,215 from Dec 13-14 (10 hours - 1 day), 
    55,855 from Dec 20, 21, 22 (16 hours - 2 days), 
@@ -20,7 +21,8 @@ let counter = 10010 + 24215 + 55855 + 44920 + 36000 + 45350 + 12150 + 32057 + 89
    32,057 from Jan 25, 2025 (10 hrs) 
    8,993 from Jan 31, 2025 (4 hrs) 
    42,700 from Feb 1, 2025 (10 hours) 
-   7,900 from Feb 2, 2025 (2 1/2 hours) all times are approximate. */
+   7,900 from Feb 2, 2025 (2 1/2 hours) 
+   29,950 from Feb 7, 2025 (10 hours) all times are approximate. */
 
 function count() {
   counter++;
